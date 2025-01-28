@@ -1,0 +1,121 @@
+@media screen and (max-width:990px) {
+  
+    .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    }
+    
+    
+  
+    #menu_bar {
+
+      display: grid;
+      color: #2e2e2e;
+      position: fixed;
+      align-items: start;
+    
+      
+      top: 4.6%; 
+      left: 15px;  
+     
+      width: 30px;
+      height: 30px;
+      
+      cursor: pointer;
+      
+      
+    }
+    #menu_bar::-webkit-scrollbar{
+      width: 0;
+    }
+    .nav__link{
+      padding-inline: 1rem;
+    }
+    
+  
+    .nav_links {
+      flex-direction: column;
+      position: absolute;
+      background: #fff;
+      width: 100%;
+      left: 0;
+      padding: 0;
+      align-items: flex-start; 
+      padding-top: 1rem;
+    }
+  
+    .nav_links li {
+      width: 100%; 
+    }
+  
+    .nav_links li a {
+      border-bottom: 1px solid #2e2e2e;
+      display: block;
+      border-radius: 0;
+      
+      margin: 0 20px;
+    }
+  
+    .nav_links li:last-child a {
+      border-bottom: none;
+    }
+    #palvelut-ul{
+      display: block;
+    }
+    
+    
+  
+  
+
+  #carouselExampleIndicators {
+    margin-top: 120px;
+   
+  }
+  #testaush1{
+    margin-top: 110px;
+
+  }
+  #yh-info{
+    margin-top: 110px;
+  }
+  #maalarit{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #etusivu{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    
+  }
+  .galleria{
+    top: 20%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+
+
+  }
+  #tapetointi-button{
+    margin-top: 50px;
+  
+   
+  }
+  #unelma{
+    width: 400px;
+    }
+
+  #palvelut-yhdessa{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .maalauspalvelu:hover{
+    transform: scale(1);
+  }
+  
+}

@@ -1,0 +1,621 @@
+
+/********FONT FAMILY********/
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+html {
+  scroll-behavior: smooth;
+  width:100%; 
+  height:100%;
+  position:relative;
+  
+ 
+ 
+}
+body {
+  
+  padding-top: 40px;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+}
+
+/********FONT SIZE********/
+
+*{
+  font-family: "Roboto", sans-serif ;
+  h1 {
+    font-size: 20px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  h3{
+    font-size: 15px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  p{
+    font-size: 12px;
+  }
+}
+
+/********HEADER********/
+header {
+  background: white;
+  border-bottom: 2px solid rgba(238, 238, 238, 0.801);
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 0px 7%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  display: flex;
+  
+ 
+}
+.logo{
+  color: #2e2e2e;
+  padding: 10px 5px;
+}
+
+#menu_bar{
+  display: none;
+  font-weight: bolder;
+}
+.logo a{
+color:#2e2e2e; 
+text-decoration: none;
+}
+
+.logo:hover{
+  background-position: right; 
+  color: #000; 
+ 
+  box-shadow: 0px 4px 15px rgba(0, 122, 255, 0.4); 
+  overflow: hidden;
+
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto ;
+  width: 80%;
+ max-width: 1200px;
+
+
+}
+
+
+
+
+.nav_links{
+  list-style: none;
+ 
+
+}
+
+.nav_links li  {
+  position: relative;
+  float: left;
+ 
+}
+.nav_links li:hover > ul{
+  display: initial;
+
+}
+.nav_links li:focus-within >ul,
+.nav_links li a{
+  color: #2e2e2e;
+  padding: 10px 10px;
+  display: block;
+
+}
+
+.nav_links li a:hover{
+  background-position: right; 
+  color: #000; 
+ 
+  box-shadow: 0px 4px 15px rgba(0, 122, 255, 0.4); 
+  overflow: hidden;
+
+
+}
+
+
+h2  {
+  text-decoration: none;
+  color: #2e2e2e;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+}
+
+        
+
+
+.nav__link li {
+  width: 100;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#nav__link{
+  left: 0;
+  position: absolute;
+  color: #2e2e2e;
+  width: 160px;
+  display: none;
+  background-color: white;
+  
+
+
+}
+#palvelut-ul{
+  display: none;
+}
+
+
+
+
+
+/********CAROUSEL********/
+
+#carouselExampleIndicators {
+  margin-top: 50px;
+ 
+}
+.carousel-item {
+  height: 800px;
+
+}
+
+.c-img{
+
+  height: 100%;
+  object-fit: cover;
+  
+
+
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+
+
+
+/********Evästeet********/
+
+.cookie-banner button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cookie-banner button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+/********GALLERIA********/
+
+/****TARKISTA KAKSI DIVIN VÄLI****/
+.galleria{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 7%;
+  margin-bottom: 8%;
+ 
+   
+  
+}
+#tapetointi-galleria, #maalaus-galleria{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#unelma{
+  width: 480px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+ 
+  
+}
+
+#maalaus-kuvat{
+  justify-content: center;
+  
+  
+}
+#img1, #img2, #img3,  #img11, #img12, #img10 {
+  border-radius: 5%;
+  padding: 1%;
+}
+#tapetointi-kuvat{
+  justify-content: center;
+  
+  
+  
+}
+#img1:hover, #img2:hover, #img3:hover, #img10:hover, #img11:hover, #img12:hover{
+  transform: scale(2); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  transition: all .5s ease-in-out;
+  
+
+
+}
+#tapetointi-button, #maalaus-button{
+  color: #2e2e2e;
+  margin-left: 11%;
+  margin-right: 11%;
+  padding: 10px 15px;
+  background: linear-gradient(135deg, #ff6f61, #C62168);
+  border: none;  
+  border-radius: 5%;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+#tapetointi-button:hover, #maalaus-button:hover{
+  background-position: right; 
+  color: #2e2e2e; 
+ 
+  box-shadow: 0px 4px 15px rgba(0, 122, 255, 0.4); 
+  overflow: hidden;
+}
+/********PALVELUT********/
+#palvelut-sivu{
+  padding-top: 3%;
+
+}
+#palvelut-info{
+  padding-top: 7%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/dalle.webp);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  position: relative;
+  padding-bottom: 3%;   
+  
+}
+#palvelut-text{
+  
+
+  text-align: center;
+  line-height: 1.6; 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;  
+  margin-left: 8%;
+  margin-right: 8%;
+  
+  
+}
+#palvelut-yhdessa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  gap: 1%;
+  
+}
+.maalauspalvelu{
+  margin: 1%;
+  padding: 3%;
+  
+  margin-right: 0;
+  background: linear-gradient(to right, #E8B5CE , #FF6F61);
+ 
+ 
+
+
+}
+.maalauspalvelu:hover{
+  transform: scale(1.2);
+  transition: all .5s ease-in-out;
+}
+.tapetointipalvelu{
+  margin: 1%;
+  padding: 3%;
+  margin-left: 0;
+  background: linear-gradient(to left  ,#E8B5CE , #FF6F61);
+  justify-content: center;
+  align-items: center;  
+
+}
+.tapetointipalvelu:hover{
+  transform: scale(0.68);
+  transition: all .5s ease-in-out;
+}
+.palvelu-painting{
+  border-top-left-radius: 80% ;
+  border-top-right-radius: 80% ;
+  height: 50%;
+  width: 50%;
+  margin-left: 4%;
+  
+
+
+}
+.palvelu-paint, .palvelu-tapetointi{
+  display: flex;
+ 
+  
+}
+.palvelu-tape{
+  width: 34.5%;
+  height: 30%;
+  border-top-left-radius: 80% ;
+  border-top-right-radius: 80% ;
+  margin-left: 10%;
+
+}
+#inspiration{
+  align-items: center;
+  justify-content: center;
+}
+#inspiration-kuvat{
+  display: flex;
+  background-color:#585E7A;
+
+}
+.inspiration-kuva{
+  margin-left: 5%;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  border-radius: 100%;
+  height: 70%;
+  width: 70%;
+  
+  
+}
+.inspiration-kuva:hover{
+  transform: scale(1.2);
+  transition: all .5s ease-in-out;
+
+}
+  
+
+
+
+
+
+
+
+
+
+/********YHTEISTIEDOT********/
+
+#yhteistiedot{
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  color: #2e2e2e;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  
+}
+#yh-info{
+  padding: 5%;
+  p{
+    font-size: 14px;
+    color: #2e2e2e;
+    text-align: center;
+    background: linear-gradient(90deg, #FFD662, #FE840E );
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+
+
+  }
+  
+  
+}
+#tarjous{
+  color: #2e2e2e;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-align:center ;
+}
+#tarjous:hover{
+  transform: scale(1.1); 
+  color:  #C62168;
+
+}
+
+
+#pekka , #yadigar{
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  
+  
+}
+#yh-lomakke{
+  margin-left: 10%;
+  background: linear-gradient(135deg, #C62168, #ff6f61); 
+  width: 400px;
+  height: 450px;
+  border-radius: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+#maalarit{
+  display: flex;
+  padding-top: 2%;
+  gap: 5%;
+  padding: 5%;
+  
+  a{
+    color: rgb(71, 150, 173);
+    
+  }
+  
+}
+.card w-25 p-3{
+  
+  margin: 5%;
+  position: relative
+}
+
+
+
+
+/*******SVG********/
+
+#svg-container {
+  width: 100%;
+  display:flex;
+  
+ 
+  padding: 10px;
+  margin: 10px;
+ 
+}
+#svg-buttons{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.flex-container{
+  display: flex;
+}
+#buttons1,
+#buttons2 {
+    width: auto;
+    height: auto;
+}
+
+#testaush1{
+  text-align: center; 
+  background: linear-gradient(135deg,  #00539C, #C62168); 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 0 0 25px rgba(255, 255, 255, 0.5);
+	animation: bounce 2s infinite ease-in-out;
+  margin-top: 7%;
+}
+
+.circle{
+  cursor: pointer;
+}
+
+
+

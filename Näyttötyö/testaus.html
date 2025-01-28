@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+  <html lang="fi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css kansio-->
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/responsive.css"> 
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--ROBOTO FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    
+    <title>Näyttötyö</title>
+
+     
+  </head>
+  <body>
+
+    <!--HEADER-->
+
+   
+    
+    
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a  href="index.html">
+            
+            <h2>KOTKANTIEN MAALAUS</h2>
+          </a>
+        </div>
+         <ul class="nav_links">
+
+  <li id="etusivu" class="nav__link">
+    <a href="index.html">
+      <i class="fa-solid fa-house"></i> ETUSIVU
+    </a>
+  </li>
+
+  <li id="palvelut-li" >
+    <a href="#palvelut">
+      <i class="fa-solid fa-wand-magic-sparkles"></i> PALVELUT
+    </a>
+      <div id="palvelut-ul">
+      <div id="maalaus-li" class="nav__link">
+        <a href="palvelut.html">
+          <i class="fa-solid fa-brush"></i> Maalaus
+        </a>
+      </div>
+      <div id="tapetointo-li" class="nav__link">
+        <a href="palvelut.html">
+          <i class="fa-solid fa-paint-roller"></i> Tapetointi
+        </a>
+      </div>
+    </div>
+    
+  </li>
+
+  <li>
+    <a href="testaus.html" class="nav__link">
+      <i class="fa-solid fa-palette"></i> VÄRIENTESTAUS
+    </a>
+  </li>
+  
+  <li>
+    <a href="galleria.html" class="nav__link">
+      <i class="fa-solid fa-photo-film"></i> GALLERIA
+    </a>
+  </li>
+  
+  <li>
+    <a href="yhteistiedot.html">
+      <i class="fa-solid fa-address-book"></i> YHTYSTIEDOT
+    </a>
+  </li>
+
+</ul>
+
+          <div id="menu_bar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+     
+
+
+      </div>
+    </header>
+		<!--Testaaminen-->
+		
+
+		<h1 id="testaush1">TESTAA VÄREJÄ</h1>
+   
+    <div id="svg-container" >
+			
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve"  width="100%" height="auto" viewBox="0 0 500 500" style="max-width: 100%;height:auto;">
+	 
+<g id="BACKGROUND">
+	<rect id="XMLID_30283_" x="-0.001" y="0.002" style="fill:#C62168;" width="500" height="499.998"/>
+	<!--lattia-->
+	<rect id="background" x="-0.001" y="344.247" style="fill:#585E7A;" width="500" height="155.753"/>
+	<g id="XMLID_15218_">
+	<svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+									
+				<circle class="circle" r="28" cx="30" cy="400" fill="#DD4132" onclick="color1()">
+					<title>Fiesta</title>
+				</circle>
+				<circle class="circle" r="28" cx="90" cy="400" fill="#9E1030" onclick="color2()" >
+					<title>Jester Red</title>
+				</circle>
+				<circle class="circle" r="28" cx="150" cy="400" fill="#FE840E" onclick="color3()" >
+					<title>Turmeric</title>
+				</circle>
+				<circle class="circle" r="28" cx="210" cy="400" fill="#FF6F61" onclick="color4()" >
+					<title>Living Coral</title>
+				</circle>
+				<circle class="circle" r="28" cx="270" cy="400" fill="#C62168" onclick="color5()" >
+					<title>Pink Peacock</title>
+				</circle>
+				<circle class="circle" r="28" cx="330" cy="400" fill="#8D9440" onclick="color6()" >
+					<title>Pepper Stem</title>
+				</circle>
+				<circle class="circle" r="28" cx="390" cy="400" fill="#FFD662" onclick="color7()" >
+					<title>Aspen Gold</title>
+				</circle>
+				<circle class="circle" r="28" cx="450" cy="400" fill="#00539C" onclick="color8()" >
+					<title>Princess Blue</title>
+				</circle>
+				<circle class="circle" r="28" cx="30" cy="460" fill="#755139"  onclick="color9()" >
+					<title>Toffee</title>
+				</circle>
+				<circle class="circle" r="28" cx="90" cy="460" fill="#D69C2F"  onclick="color10()">
+					<title>Mango Mojito</title>
+				</circle>
+				<circle class="circle" r="28" cx="150" cy="460" fill="#616247" onclick="color11()">
+					<title>Terrarium Moss</title>
+				</circle>
+				<circle class="circle" r="28" cx="210" cy="460" fill="#E8B5CE" onclick="color12()">
+					<title>Sweet Lilac</title>
+				</circle>
+				<circle class="circle" r="28" cx="270" cy="460" fill="#D2C29D" onclick="color13()">
+					<title>Soybean</title>
+				</circle>
+				<circle class="circle" r="28" cx="330" cy="460" fill="#343148" onclick="color14()">
+					<title>Eclipse</title>
+				</circle>
+				<circle class="circle" r="28" cx="390" cy="460" fill="#F0EAD6" onclick="color15()">
+					<title>Sweet Corn</title>
+				</circle>
+				<circle class="circle" r="28" cx="450" cy="460" fill="#615550" onclick="color16()">
+					<title>Brown Granite</title>
+				</circle>
+
+
+				</svg>
+		<g id="XMLID_30280_">
+			<rect id="XMLID_30281_" x="88.547" y="64.338" style="fill:#E08F18;" width="117.854" height="209.649"/>
+		</g>
+		<path id="XMLID_30274_" style="fill:#FFCA79;" d="M206.4,139.838v-42.5v-33h-54.427h-3.527h-1.945h-3.527H88.547v33v42.5v5
+			v129.149h54.427h9H206.4V144.838l0,0V139.838L206.4,139.838z M142.974,264.987H97.547V144.838h45.427V264.987z M97.547,139.838
+			V96.501c1.227-0.497,2.479-1.187,3.69-2.163c9.384-7.563,6.532-19.467,16.47-20c4.659-0.25,5.543,5,7.767,5
+			c2.223,0,2.683-5.818,9.164-5.674c3.151,0.071,6.031,2.262,8.336,4.827v61.347H97.547z M197.4,264.987h-45.427V144.838H197.4
+			V264.987z M151.974,139.838V78.491c2.305-2.565,5.185-4.756,8.336-4.827c6.481-0.145,6.941,5.674,9.164,5.674
+			c2.224,0,3.107-5.25,7.767-5c9.938,0.533,7.086,12.438,16.47,20c1.212,0.977,2.464,1.666,3.69,2.163v43.337H151.974z"/>
+		<g id="XMLID_15258_">
+			<g id="XMLID_30272_">
+				<rect id="XMLID_30273_" x="29.122" y="64.338" style="fill:#FFCA79;" width="59.425" height="209.649"/>
+			</g>
+			<g id="XMLID_15277_">
+				<path id="XMLID_15278_" style="fill:#FFB13E;" d="M77,64.338h-1.692h-9.853h-1.693h-9.853h-1.693h-9.853h-1.692H29.122V80.99
+					v35.348v8.326v101.078v8.326v39.919h11.547h1.692h9.853h1.693h9.853h1.693h9.853H77h11.547v-39.919v-8.326V124.664v-8.326V80.99
+					V64.338H77z M75.308,80.99v35.348h-9.853V80.99H75.308z M53.908,124.664h9.853v101.078h-9.853V124.664z M52.215,225.742h-9.853
+					V124.664h9.853V225.742z M65.454,124.664h9.853v101.078h-9.853V124.664z M63.761,80.99v35.348h-9.853V80.99H63.761z
+					 M52.215,80.99v35.348h-9.853V80.99H52.215z M30.714,80.99h9.955v35.348h-9.955V80.99z M30.714,124.664h9.955v101.078h-9.955
+					V124.664z M30.714,270.831v-36.763h9.955v36.763H30.714z M42.361,270.831v-36.763h9.853v36.763H42.361z M53.908,270.831v-36.763
+					h9.853v36.763H53.908z M65.454,270.831v-36.763h9.853v36.763H65.454z M86.955,270.831H77v-36.763h9.955V270.831z
+					 M86.955,225.742H77V124.664h9.955V225.742z M77,116.338V80.99h9.955v35.348H77z"/>
+			</g>
+			<g id="XMLID_15268_">
+				<g id="XMLID_15275_">
+					<path id="XMLID_15276_" style="fill:#FFCA79;" d="M38.743,120.501c0,1.51-1.224,2.733-2.733,2.733
+						c-1.509,0-2.732-1.224-2.732-2.733c0-1.509,1.224-2.733,2.732-2.733C37.52,117.768,38.743,118.992,38.743,120.501z"/>
+				</g>
+				<g id="XMLID_15273_">
+					<circle id="XMLID_15274_" style="fill:#FFCA79;" cx="50.838" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15271_">
+					<circle id="XMLID_15272_" style="fill:#FFCA79;" cx="65.666" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15269_">
+					<circle id="XMLID_15270_" style="fill:#FFCA79;" cx="80.493" cy="120.501" r="2.733"/>
+				</g>
+			</g>
+			<g id="XMLID_15259_">
+				<g id="XMLID_15266_">
+					<path id="XMLID_15267_" style="fill:#FFCA79;" d="M38.743,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.509,0-2.732-1.223-2.732-2.732c0-1.51,1.224-2.734,2.732-2.734C37.52,227.172,38.743,228.396,38.743,229.906z"/>
+				</g>
+				<g id="XMLID_15264_">
+					<path id="XMLID_15265_" style="fill:#FFCA79;" d="M53.571,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C52.348,227.172,53.571,228.396,53.571,229.906z"/>
+				</g>
+				<g id="XMLID_15262_">
+					<path id="XMLID_15263_" style="fill:#FFCA79;" d="M68.399,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C67.176,227.172,68.399,228.396,68.399,229.906z"/>
+				</g>
+				<g id="XMLID_15260_">
+					<path id="XMLID_15261_" style="fill:#FFCA79;" d="M83.227,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.509,0-2.733-1.223-2.733-2.732c0-1.51,1.225-2.734,2.733-2.734C82.003,227.172,83.227,228.396,83.227,229.906z"/>
+				</g>
+			</g>
+		</g>
+		<g id="XMLID_15219_">
+			<g id="XMLID_15256_">
+				<rect id="XMLID_15257_" x="206.4" y="64.338" style="fill:#FFCA79;" width="59.425" height="209.649"/>
+			</g>
+			<g id="XMLID_15238_">
+				<path id="XMLID_15239_" style="fill:#FFB13E;" d="M254.278,64.338h-1.692h-9.854h-1.693h-9.853h-1.693h-9.854h-1.692H206.4
+					V80.99v35.348v8.326v101.078v8.326v39.919h11.547h1.692h9.854h1.693h9.853h1.693h9.854h1.692h11.547v-39.919v-8.326V124.664
+					v-8.326V80.99V64.338H254.278z M252.586,80.99v35.348h-9.854V80.99H252.586z M231.186,124.664h9.853v101.078h-9.853V124.664z
+					 M229.493,225.742h-9.854V124.664h9.854V225.742z M242.732,124.664h9.854v101.078h-9.854V124.664z M241.039,80.99v35.348h-9.853
+					V80.99H241.039z M229.493,80.99v35.348h-9.854V80.99H229.493z M207.992,80.99h9.955v35.348h-9.955V80.99z M207.992,124.664
+					h9.955v101.078h-9.955V124.664z M207.992,270.831v-36.763h9.955v36.763H207.992z M219.64,270.831v-36.763h9.854v36.763H219.64z
+					 M231.186,270.831v-36.763h9.853v36.763H231.186z M242.732,270.831v-36.763h9.854v36.763H242.732z M264.233,270.831h-9.955
+					v-36.763h9.955V270.831z M264.233,225.742h-9.955V124.664h9.955V225.742z M254.278,116.338V80.99h9.955v35.348H254.278z"/>
+			</g>
+			<g id="XMLID_15229_">
+				<g id="XMLID_15236_">
+					<path id="XMLID_15237_" style="fill:#FFCA79;" d="M216.021,120.501c0,1.51-1.224,2.733-2.732,2.733
+						c-1.51,0-2.733-1.224-2.733-2.733c0-1.509,1.224-2.733,2.733-2.733C214.798,117.768,216.021,118.992,216.021,120.501z"/>
+				</g>
+				<g id="XMLID_15234_">
+					<circle id="XMLID_15235_" style="fill:#FFCA79;" cx="228.116" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15232_">
+					<circle id="XMLID_15233_" style="fill:#FFCA79;" cx="242.944" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15230_">
+					<path id="XMLID_15231_" style="fill:#FFCA79;" d="M260.505,120.501c0,1.51-1.224,2.733-2.733,2.733
+						c-1.509,0-2.732-1.224-2.732-2.733c0-1.509,1.224-2.733,2.732-2.733C259.281,117.768,260.505,118.992,260.505,120.501z"/>
+				</g>
+			</g>
+			<g id="XMLID_15220_">
+				<g id="XMLID_15227_">
+					<path id="XMLID_15228_" style="fill:#FFCA79;" d="M216.021,229.906c0,1.51-1.224,2.732-2.732,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C214.798,227.172,216.021,228.396,216.021,229.906z"/>
+				</g>
+				<g id="XMLID_15225_">
+					<path id="XMLID_15226_" style="fill:#FFCA79;" d="M230.85,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C229.626,227.172,230.85,228.396,230.85,229.906z"/>
+				</g>
+				<g id="XMLID_15223_">
+					<path id="XMLID_15224_" style="fill:#FFCA79;" d="M245.678,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C244.454,227.172,245.678,228.396,245.678,229.906z"/>
+				</g>
+				<g id="XMLID_15221_">
+					<path id="XMLID_15222_" style="fill:#FFCA79;" d="M260.505,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.509,0-2.732-1.223-2.732-2.732c0-1.51,1.224-2.734,2.732-2.734C259.281,227.172,260.505,228.396,260.505,229.906z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	
+</g>
+
+
+		
+	
+	
+	
+</svg>
+
+
+<!--TOINEN SVG-->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve" width="100%" height="auto" viewBox="0 0 500 500" style="max-width: 100%;height:auto;">
+<g id="BACKGROUND2">
+	<rect id="XMLID_30283_" x="-0.001" y="0.002" style="fill: #00539C;" width="500" height="499.998"/>
+	<!--lattia-->
+	<rect id="XMLID_30282_" x="-0.001" y="344.247" style="fill:#585E7A;" width="500" height="155.753"/>
+	<g id="XMLID_15218_">
+	<svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+						
+					<circle class="circle" r="28" cx="30" cy="400" fill="#DD4132" onclick="color21()">
+						<title>Fiesta</title>
+					</circle>
+					<circle class="circle" r="28" cx="90" cy="400" fill="#9E1030" onclick="color22()" >
+						<title>Jester Red</title>
+					</circle>
+					<circle class="circle" r="28" cx="150" cy="400" fill="#FE840E" onclick="color23()" >
+						<title>Turmeric</title>
+					</circle>
+					<circle class="circle" r="28" cx="210" cy="400" fill="#FF6F61" onclick="color24()" >
+						<title>Living Coral</title>
+					</circle>
+					<circle class="circle" r="28" cx="270" cy="400" fill="#C62168" onclick="color25()" >
+						<title>Pink Peacock</title>
+					</circle>
+					<circle class="circle" r="28" cx="330" cy="400" fill="#8D9440" onclick="color26()" >
+						<title>Pepper Stem</title>
+					</circle>
+					<circle class="circle" r="28" cx="390" cy="400" fill="#FFD662" onclick="color27()" >
+						<title>Aspen Gold</title>
+					</circle>
+					<circle class="circle" r="28" cx="450" cy="400" fill="#00539C" onclick="color28()" >
+						<title>Princess Blue</title>
+					</circle>
+					<circle class="circle" r="28" cx="30" cy="460" fill="#755139"  onclick="color29()" >
+						<title>Toffee</title>
+					</circle>
+					<circle class="circle" r="28" cx="90" cy="460" fill="#D69C2F"  onclick="color210()">
+						<title>Mango Mojito</title>
+					</circle>
+					<circle class="circle" r="28" cx="150" cy="460" fill="#616247" onclick="color211()">
+						<title>Terrarium Moss</title>
+					</circle>
+					<circle class="circle" r="28" cx="210" cy="460" fill="#E8B5CE" onclick="color212()">
+						<title>Sweet Lilac</title>
+					</circle>
+					<circle class="circle" r="28" cx="270" cy="460" fill="#D2C29D" onclick="color213()">
+						<title>Soybean</title>
+					</circle>
+					<circle class="circle" r="28" cx="330" cy="460" fill="#343148" onclick="color214()">
+						<title>Eclipse</title>
+					</circle>
+					<circle class="circle" r="28" cx="390" cy="460" fill="#F0EAD6" onclick="color215()">
+						<title>Sweet Corn</title>
+					</circle>
+					<circle class="circle" r="28" cx="450" cy="460" fill="#615550" onclick="color216()">
+						<title>Brown Granite</title>
+					</circle>
+
+				</svg>
+		<g id="XMLID_30280_">
+			<rect id="XMLID_30281_" x="88.547" y="64.338" style="fill:#E08F18;" width="117.854" height="209.649"/>
+		</g>
+		<path id="XMLID_30274_" style="fill:#FFCA79;" d="M206.4,139.838v-42.5v-33h-54.427h-3.527h-1.945h-3.527H88.547v33v42.5v5
+			v129.149h54.427h9H206.4V144.838l0,0V139.838L206.4,139.838z M142.974,264.987H97.547V144.838h45.427V264.987z M97.547,139.838
+			V96.501c1.227-0.497,2.479-1.187,3.69-2.163c9.384-7.563,6.532-19.467,16.47-20c4.659-0.25,5.543,5,7.767,5
+			c2.223,0,2.683-5.818,9.164-5.674c3.151,0.071,6.031,2.262,8.336,4.827v61.347H97.547z M197.4,264.987h-45.427V144.838H197.4
+			V264.987z M151.974,139.838V78.491c2.305-2.565,5.185-4.756,8.336-4.827c6.481-0.145,6.941,5.674,9.164,5.674
+			c2.224,0,3.107-5.25,7.767-5c9.938,0.533,7.086,12.438,16.47,20c1.212,0.977,2.464,1.666,3.69,2.163v43.337H151.974z"/>
+		<g id="XMLID_15258_">
+			<g id="XMLID_30272_">
+				<rect id="XMLID_30273_" x="29.122" y="64.338" style="fill:#FFCA79;" width="59.425" height="209.649"/>
+			</g>
+			<g id="XMLID_15277_">
+				<path id="XMLID_15278_" style="fill:#FFB13E;" d="M77,64.338h-1.692h-9.853h-1.693h-9.853h-1.693h-9.853h-1.692H29.122V80.99
+					v35.348v8.326v101.078v8.326v39.919h11.547h1.692h9.853h1.693h9.853h1.693h9.853H77h11.547v-39.919v-8.326V124.664v-8.326V80.99
+					V64.338H77z M75.308,80.99v35.348h-9.853V80.99H75.308z M53.908,124.664h9.853v101.078h-9.853V124.664z M52.215,225.742h-9.853
+					V124.664h9.853V225.742z M65.454,124.664h9.853v101.078h-9.853V124.664z M63.761,80.99v35.348h-9.853V80.99H63.761z
+					 M52.215,80.99v35.348h-9.853V80.99H52.215z M30.714,80.99h9.955v35.348h-9.955V80.99z M30.714,124.664h9.955v101.078h-9.955
+					V124.664z M30.714,270.831v-36.763h9.955v36.763H30.714z M42.361,270.831v-36.763h9.853v36.763H42.361z M53.908,270.831v-36.763
+					h9.853v36.763H53.908z M65.454,270.831v-36.763h9.853v36.763H65.454z M86.955,270.831H77v-36.763h9.955V270.831z
+					 M86.955,225.742H77V124.664h9.955V225.742z M77,116.338V80.99h9.955v35.348H77z"/>
+			</g>
+			<g id="XMLID_15268_">
+				<g id="XMLID_15275_">
+					<path id="XMLID_15276_" style="fill:#FFCA79;" d="M38.743,120.501c0,1.51-1.224,2.733-2.733,2.733
+						c-1.509,0-2.732-1.224-2.732-2.733c0-1.509,1.224-2.733,2.732-2.733C37.52,117.768,38.743,118.992,38.743,120.501z"/>
+				</g>
+				<g id="XMLID_15273_">
+					<circle id="XMLID_15274_" style="fill:#FFCA79;" cx="50.838" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15271_">
+					<circle id="XMLID_15272_" style="fill:#FFCA79;" cx="65.666" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15269_">
+					<circle id="XMLID_15270_" style="fill:#FFCA79;" cx="80.493" cy="120.501" r="2.733"/>
+				</g>
+			</g>
+			<g id="XMLID_15259_">
+				<g id="XMLID_15266_">
+					<path id="XMLID_15267_" style="fill:#FFCA79;" d="M38.743,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.509,0-2.732-1.223-2.732-2.732c0-1.51,1.224-2.734,2.732-2.734C37.52,227.172,38.743,228.396,38.743,229.906z"/>
+				</g>
+				<g id="XMLID_15264_">
+					<path id="XMLID_15265_" style="fill:#FFCA79;" d="M53.571,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C52.348,227.172,53.571,228.396,53.571,229.906z"/>
+				</g>
+				<g id="XMLID_15262_">
+					<path id="XMLID_15263_" style="fill:#FFCA79;" d="M68.399,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C67.176,227.172,68.399,228.396,68.399,229.906z"/>
+				</g>
+				<g id="XMLID_15260_">
+					<path id="XMLID_15261_" style="fill:#FFCA79;" d="M83.227,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.509,0-2.733-1.223-2.733-2.732c0-1.51,1.225-2.734,2.733-2.734C82.003,227.172,83.227,228.396,83.227,229.906z"/>
+				</g>
+			</g>
+		</g>
+		<g id="XMLID_15219_">
+			<g id="XMLID_15256_">
+				<rect id="XMLID_15257_" x="206.4" y="64.338" style="fill:#FFCA79;" width="59.425" height="209.649"/>
+			</g>
+			<g id="XMLID_15238_">
+				<path id="XMLID_15239_" style="fill:#FFB13E;" d="M254.278,64.338h-1.692h-9.854h-1.693h-9.853h-1.693h-9.854h-1.692H206.4
+					V80.99v35.348v8.326v101.078v8.326v39.919h11.547h1.692h9.854h1.693h9.853h1.693h9.854h1.692h11.547v-39.919v-8.326V124.664
+					v-8.326V80.99V64.338H254.278z M252.586,80.99v35.348h-9.854V80.99H252.586z M231.186,124.664h9.853v101.078h-9.853V124.664z
+					 M229.493,225.742h-9.854V124.664h9.854V225.742z M242.732,124.664h9.854v101.078h-9.854V124.664z M241.039,80.99v35.348h-9.853
+					V80.99H241.039z M229.493,80.99v35.348h-9.854V80.99H229.493z M207.992,80.99h9.955v35.348h-9.955V80.99z M207.992,124.664
+					h9.955v101.078h-9.955V124.664z M207.992,270.831v-36.763h9.955v36.763H207.992z M219.64,270.831v-36.763h9.854v36.763H219.64z
+					 M231.186,270.831v-36.763h9.853v36.763H231.186z M242.732,270.831v-36.763h9.854v36.763H242.732z M264.233,270.831h-9.955
+					v-36.763h9.955V270.831z M264.233,225.742h-9.955V124.664h9.955V225.742z M254.278,116.338V80.99h9.955v35.348H254.278z"/>
+			</g>
+			<g id="XMLID_15229_">
+				<g id="XMLID_15236_">
+					<path id="XMLID_15237_" style="fill:#FFCA79;" d="M216.021,120.501c0,1.51-1.224,2.733-2.732,2.733
+						c-1.51,0-2.733-1.224-2.733-2.733c0-1.509,1.224-2.733,2.733-2.733C214.798,117.768,216.021,118.992,216.021,120.501z"/>
+				</g>
+				<g id="XMLID_15234_">
+					<circle id="XMLID_15235_" style="fill:#FFCA79;" cx="228.116" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15232_">
+					<circle id="XMLID_15233_" style="fill:#FFCA79;" cx="242.944" cy="120.501" r="2.733"/>
+				</g>
+				<g id="XMLID_15230_">
+					<path id="XMLID_15231_" style="fill:#FFCA79;" d="M260.505,120.501c0,1.51-1.224,2.733-2.733,2.733
+						c-1.509,0-2.732-1.224-2.732-2.733c0-1.509,1.224-2.733,2.732-2.733C259.281,117.768,260.505,118.992,260.505,120.501z"/>
+				</g>
+			</g>
+			<g id="XMLID_15220_">
+				<g id="XMLID_15227_">
+					<path id="XMLID_15228_" style="fill:#FFCA79;" d="M216.021,229.906c0,1.51-1.224,2.732-2.732,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C214.798,227.172,216.021,228.396,216.021,229.906z"/>
+				</g>
+				<g id="XMLID_15225_">
+					<path id="XMLID_15226_" style="fill:#FFCA79;" d="M230.85,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C229.626,227.172,230.85,228.396,230.85,229.906z"/>
+				</g>
+				<g id="XMLID_15223_">
+					<path id="XMLID_15224_" style="fill:#FFCA79;" d="M245.678,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.51,0-2.733-1.223-2.733-2.732c0-1.51,1.224-2.734,2.733-2.734C244.454,227.172,245.678,228.396,245.678,229.906z"/>
+				</g>
+				<g id="XMLID_15221_">
+					<path id="XMLID_15222_" style="fill:#FFCA79;" d="M260.505,229.906c0,1.51-1.224,2.732-2.733,2.732
+						c-1.509,0-2.732-1.223-2.732-2.732c0-1.51,1.224-2.734,2.732-2.734C259.281,227.172,260.505,228.396,260.505,229.906z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	
+</g>
+
+
+		
+	
+	
+	
+</svg>
+
+
+
+
+
+
+
+		</div>    
+
+
+
+		
+		<button type="button" class="btn btn-secondary btn-lg btn-block" onclick="resetColors()">RESET</button>
+	
+        
+    
+      
+      
+            
+    
+      
+      <!--EI OLE VALMIS FOOTER-->
+  <!--FOOTER-->
+			<!--Bootstrap Footer-->
+			<footer class="bg-body-tertiary text-center">
+				<!-- Grid container -->
+				<div class="container p-4 pb-0">
+					<!-- Section: Social media -->
+					<section class="mb-4">
+						<!-- Facebook -->
+						<a
+						data-mdb-ripple-init
+							class="btn text-white btn-floating m-1"
+							style="background-color: #3b5998;"
+							href="#!"
+							role="button"
+							><i class="fab fa-facebook-f"></i
+						></a>
+			
+						<!-- Twitter -->
+						<a
+							data-mdb-ripple-init
+							class="btn text-white btn-floating m-1"
+							style="background-color: #55acee;"
+							href="#!"
+							role="button"
+							><i class="fab fa-twitter"></i
+						></a>
+			
+						<!-- Google -->
+						<a
+							data-mdb-ripple-init
+							class="btn text-white btn-floating m-1"
+							style="background-color: #dd4b39;"
+							href="#!"
+							role="button"
+							><i class="fab fa-google"></i
+						></a>
+			
+						<!-- Instagram -->
+						<a
+							data-mdb-ripple-init
+							class="btn text-white btn-floating m-1"
+							style="background-color: #ac2bac;"
+							href="#!"
+							role="button"
+							><i class="fab fa-instagram"></i
+						></a>
+			
+						<!-- Linkedin -->
+						<a
+							data-mdb-ripple-init
+							class="btn text-white btn-floating m-1"
+							style="background-color: #0082ca;"
+							href="#!"
+							role="button"
+							><i class="fab fa-linkedin-in"></i
+						></a>
+						<!-- Github -->
+						<a
+							data-mdb-ripple-init
+							class="btn text-white btn-floating m-1"
+							style="background-color: #333333;"
+							href="#!"
+							role="button"
+							><i class="fab fa-github"></i
+						></a>
+					</section>
+					<!-- Section: Social media -->
+				</div>
+				<!-- Grid container -->
+			
+				<!-- Copyright -->
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+					© 2024 Copyright:
+					<a class="text-body" href="index.html">Kotkantienmaalaus.com</a>
+				</div>
+				<!-- Copyright -->
+			</footer>
+
+     
+      
+
+     
+    <!--js kansio-->
+    <script src="js/script.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
+  </body>
+</html>
